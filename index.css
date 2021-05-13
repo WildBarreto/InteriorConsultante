@@ -1,0 +1,120 @@
+html {
+  background-color: black;
+  color: #ffff;
+
+  font-family: Lora;
+  font-style: normal;
+
+  line-height: 61px;
+
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-right: 70px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #ffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+button {
+  position: absolute;
+  top: 30px;
+  margin-left: 50px;
+  background-color: black;
+  color: #ffff;
+  border-style: solid;
+  border-color: #ffff;
+  border-width: 1px;
+  width: 102px;
+  height: 32px;
+  font-size: 14px;
+}
+
+.title {
+  position: absolute;
+  width: 365px;
+  height: 61px;
+  top: 131px;
+  left: 50px;
+
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 61px;
+
+  color: #ffffff;
+}
+
+.message {
+  position: absolute;
+  width: 245px;
+  height: 61px;
+  top: 230px;
+  left: 50px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.more {
+  position: absolute;
+  width: 350px;
+  height: 61px;
+  top: 430px;
+  left: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.picture {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  left: 600px;
+  top: 121px;
+}
+
+.picture img {
+  width: 600px;
+  height: 360px;
+
+  top: 221px;
+}
+
+footer {
+  position: absolute;
+  top: 650px;
+  left: 547px;
+  font-family: "Monserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #a9a9a9;
+}
